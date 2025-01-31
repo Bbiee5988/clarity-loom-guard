@@ -4,12 +4,21 @@ A secure blockchain-based system for managing and protecting textile innovations
 
 ## Features
 - Register new textile innovations with proof of ownership
-- Track innovation history and modifications
+- Track innovation history and modifications 
 - Manage licensing and usage rights
 - Verify authenticity of registered designs
 - Transfer ownership of innovations
+- Set and track royalty payments for licensed innovations
+- Automated royalty payment tracking and history
 
 ## Getting Started
 1. Clone the repository
 2. Install dependencies with `clarinet install`
 3. Run tests with `clarinet test`
+
+## Royalty System
+The new royalty tracking system allows innovation owners to:
+- Set royalty rates during innovation registration
+- Track royalty payments from licensees
+- View payment history and total royalties received
+- Automatically record all royalty transactions on-chain
